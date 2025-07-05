@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+header {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.5%;
+    
+}
+header h1 {
+    background-color: goldenrod;
+    padding: 2%;
+    color: white;
+    font-style: italic;
+}
+header nav {
+    display: flex;
+    gap: 25px;
+}
+header nav a {
+    color: black
+}
+header nav a:hover {
+    color:crimson;
+}
