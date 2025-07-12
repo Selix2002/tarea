@@ -1,29 +1,101 @@
-* {
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #1e3c72, #a4eaff);
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-
-header {
-    background-color: aquamarine;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    padding: 2.5%;
-    
+    justify-content: center;
+    min-height: 100vh;
 }
-header h1 {
-    background-color: goldenrod;
-    padding: 2%;
-    color: white;
-    font-style: italic;
+
+.inicio {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
-header nav {
+.inicio h1 {
+    color: rgba(5, 24, 131, 0.541)
+}
+.sesion {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(1, 15, 63);
+    width: 300px;
     display: flex;
-    gap: 25px;
+    flex-direction: column;
+    gap: 10px;
 }
-header nav a {
-    color: black
+
+.sesion label {
+    font-weight: bold;
 }
-header nav a:hover {
-    color:crimson;
+
+.sesion input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.sesion a {
+    text-align: right;
+    font-size: 14px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.sesion a:hover {
+    text-decoration: underline;
+}
+
+.sesion button {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(67, 67, 255, 0.863);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sesion button:hover {
+    background-color: #8ad4ff;
+}
+.button button {
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    padding:8px;
+    color: white;
+    background-color: rgb(113, 173, 241);
+    cursor: pointer;
+    font-weight: bold;
+}
+.button button:hover {
+    background-color: #8ad4ff;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.logo img {
+    width: 50px;
+    height: auto
+}
+.Personas {
+    background-color: rgb(138, 196, 250);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    width: 150px;
+    margin-top: 1px;
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    color: rgb(1, 15, 63);
 }
